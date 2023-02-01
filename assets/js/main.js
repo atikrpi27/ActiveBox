@@ -14,10 +14,14 @@ $(document).ready(function () {
     $('.checkbtn').click(function () {
         if ($('input[type="checkbox"]').prop("checked") == true) {
             $('input[type="checkbox"]').attr('checked', false);
+            $('#cancelBtn').hide();
+            $('#iconBtn').show();
         }
         else if ($('input[type="checkbox"]').prop("checked") == false) {
             $('input[type="checkbox"]').attr('checked', true);
             console.log("checked all")
+            $('#iconBtn').hide();
+            $('#cancelBtn').show();
         }
     });
 
