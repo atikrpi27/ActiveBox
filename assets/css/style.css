@@ -180,23 +180,32 @@ nav ul {
 
 /*============== Media Query ==============*/
 
-@media (min-width: 1200px) {
+ @media (max-width: 1440px) {
     .container {
         width: 1170px !important;
     }
+
+    .col-12 {
+        width: 83.33%;
+        margin-left: 8.33%;
+    }
+
+    .banner-text {
+        padding-top: 26.5%;
+    }
+
+    .banner-text p{
+        line-height: 1.1;
+        line-height: 1.5;
+    }
+
 }
 
-@media (min-width: 992px) {
+/* @media (min-width: 1200px) {
     .container {
-        width: 970px !important;
+        width: 1170px !important;
     }
-}
-
-@media (min-width: 768px) {
-    .container {
-        width: 750px;
-    }
-}
+} */
 
 @media (max-width: 1024px) {
 
@@ -217,9 +226,43 @@ nav ul {
         width: 90%;
         margin: 0 auto;
     }
+
+    .banner-text p {
+        font-size: 22px;
+        font-weight: 300;
+        margin-top: 11px;
+        margin-bottom: 80px;
+        padding: 0px 10px;
+        line-height: 1.5;
+    }
+
+    .features-content p {
+        font-size: 14px;
+        line-height: 22.4px;
+        color: #6c7279;
+        padding: 0px 16px;
+    }
+}
+
+/* @media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+} */
+
+@media (min-width: 768px) {
+    .container {
+        /* width: 750px !important; */
+    }
+
 }
 
 @media (max-width: 768px) {
+
+    .col-12 {
+        width: 100%;
+        margin-left: 0%;
+    }
 
     .checkbtn {
         display: block;
@@ -275,7 +318,13 @@ nav ul {
     }
 
     .banner-text {
-        margin-top: 30%;
+        margin-top: 6%;
+    }
+
+    .banner-text p{
+        font-size: 18px;
+        padding: 0;
+        margin-top: 9px;
     }
 
     .banner-text h1 {
