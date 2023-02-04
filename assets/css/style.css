@@ -9,13 +9,7 @@
 body {
     font-family: 'Raleway', sans-serif;
     color: #30344f;
-    height: 1500px;
 }
-
-/* .h1, .h2, .h3, h1, h2, h3 {
-    margin-top: 20px;
-    margin-bottom: 10px;
-} */
 
 #banner {
     background-image: url("../../assets/img/banner.jpg");
@@ -126,7 +120,6 @@ nav ul {
 }
 
 .banner-text p {
-    /* font-family: 'Raleway', sans-serif; */
     font-size: 22px;
     font-weight: 300;
     margin-top: 9px;
@@ -157,11 +150,39 @@ nav ul {
 }
 
 
+/*============= Feature Start =============*/
+
+#features {
+    padding: 100px 0;
+}
+
+.features-content {
+    margin-bottom: 60px;
+}
+
+.features-content img {}
+
+.features-content h5 {
+    font-size: 14px;
+    color: #2d3033;
+    margin-top: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.features-content p {
+    font-size: 14px;
+    line-height: 22.4px;
+    color: #6c7279;
+    padding: 0px 13px;
+}
+
+
 /*============== Media Query ==============*/
 
 @media (min-width: 1200px) {
     .container {
-        width: 1170px;
+        width: 1170px !important;
     }
 }
 
@@ -179,6 +200,14 @@ nav ul {
 
 @media (max-width: 1024px) {
 
+    .col-12 {
+        width: 83.33%;
+        margin-left: 8.33%;
+    }
+
+    .container {
+        width: 970px !important;
+    }
 
     #header {
         width: 100%;
@@ -190,12 +219,7 @@ nav ul {
     }
 }
 
-@media (max-width: 810px) {
-
-    .logo {
-        left: 15px;
-        position: relative;
-    }
+@media (max-width: 768px) {
 
     .checkbtn {
         display: block;
