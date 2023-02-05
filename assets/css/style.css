@@ -189,21 +189,14 @@ nav ul {
     padding: 0 !important;
 }
 
-.work-modify {
-    margin: 0;
-    padding: 0;
-}
-
-#work img {
+.work-img {
     width: 100%;
     height: 350px;
     overflow-x: hidden;
     border: .5px solid #fff;
     object-fit: none;
-    object-position: 70% 100%;
+    object-position: 70% 100%; 
 }
-
-
 
 /*============== Team Section ==============*/
 
@@ -344,12 +337,11 @@ nav ul {
 
 #footer{
     background-color: #3a3e64;
-    /* background-color: #2b2e4a; */
     color: #fff;
 }
 
 .footer-content{
-    padding-top: 50px;
+    padding-top: 70px;
     margin-bottom: 80px;
 }
 
@@ -360,14 +352,26 @@ nav ul {
     font-weight: 700;
 }
 
-.footer-content p{
+.footer-content p,
+.footer-bottom p{
     font-size: 14px;
     line-height: 22.4px;
     color: rgba(255, 255, 255, 0.5);
 }
 
+.footer-bottom{
+    background-color: #2b2e4a;
+    padding: 20px 0;
+}
+
+.footer-bottom p{
+    margin: 0;}
+
 .footer-bottom i{
     color: #e52e2e;
+}
+.footer-bottom b{
+    color: #ffffff;
 }
 
 /*============== Media Query ==============*/
@@ -398,13 +402,6 @@ nav ul {
 
 }
 
-/* @media (min-width: 1200px) {
-    .container {
-        width: 1170px !important;
-    }
-} */
-
-/* @media (max-width: 1024px)  */
 @media only screen and (max-width: 1024px) and (min-width: 769px) {
 
     .col-12 {
@@ -447,12 +444,6 @@ nav ul {
         padding: 0px 0px;
     }
 }
-
-/* @media (min-width: 992px) {
-    .container {
-        width: 970px;
-    }
-} */
 
 @media (min-width: 768px) {
     .container {
@@ -563,6 +554,15 @@ nav ul {
     .social-icon {
         margin: 30px 0;
         text-align: center;
+    }
+
+    .footer-content {
+        padding-top: 50px;
+        margin-bottom: 0;
+    }
+
+    .footer-content-pera{
+        margin-bottom: 50px;
     }
 
 }
