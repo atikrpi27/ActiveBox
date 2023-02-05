@@ -241,7 +241,6 @@ nav ul {
     font-size: 14px;
     line-height: 22.4px;
     color: #6c7279;
-    word-break: ;
 }
 
 .social-icon{
@@ -448,8 +447,21 @@ nav ul {
         height: 265px;
         width: 265px;
         padding: 0px;
-        margin: 0 auto 50px !important;
+        margin: 0 auto 30px !important;
         display: flex;
+    }
+
+    .team-member-description{
+        text-align: center;
+    }
+
+    .team-member-description p{
+        padding: 0 10px;
+    }
+
+    .social-icon{
+        margin: 30px 0;
+        text-align: center;
     }
 
 }
@@ -461,5 +473,9 @@ nav ul {
 
     .banner-text h1 {
         font-size: 32px;
+    }
+
+    .team-member-description p{
+        padding: 0 10px;
     }
 }
