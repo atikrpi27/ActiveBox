@@ -340,6 +340,36 @@ nav ul {
     font-weight: 300;
 }
 
+/*============== Footer Start ==============*/
+
+#footer{
+    background-color: #3a3e64;
+    /* background-color: #2b2e4a; */
+    color: #fff;
+}
+
+.footer-content{
+    padding-top: 50px;
+    margin-bottom: 80px;
+}
+
+.footer-content h5{
+    margin-bottom: 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.footer-content p{
+    font-size: 14px;
+    line-height: 22.4px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.footer-bottom i{
+    color: #e52e2e;
+}
+
 /*============== Media Query ==============*/
 
 
