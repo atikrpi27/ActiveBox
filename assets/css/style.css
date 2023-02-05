@@ -138,7 +138,7 @@ nav ul {
     font-size: 13px;
     font-weight: 600;
     border: 0;
-    border-radius: 2px;
+    border-radius: 3px;
     display: inline-block;
     text-transform: uppercase;
 }
@@ -208,7 +208,7 @@ nav ul {
 /*============== Team Section ==============*/
 
 #team {
-    padding: 70px 0;
+    padding: 100px 0;
 }
 
 .team-member img {
@@ -328,6 +328,18 @@ nav ul {
 }
 
 
+/*============== Download Start ==============*/
+
+#download{
+    padding: 100px 0;
+}
+
+.download-content h3{
+    font-size: 28px;
+    color: #2d3033;
+    font-weight: 300;
+}
+
 /*============== Media Query ==============*/
 
 
@@ -348,6 +360,10 @@ nav ul {
     .banner-text p {
         line-height: 1.1;
         line-height: 1.5;
+    }
+
+    #team {
+        padding: 100px 0 65px 0;
     }
 
 }
