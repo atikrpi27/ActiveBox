@@ -208,7 +208,7 @@ nav ul {
 /*============== Team Section ==============*/
 
 #team {
-    padding: 100px 0;
+    padding: 70px 0;
 }
 
 .team-member img {
@@ -243,22 +243,22 @@ nav ul {
     color: #6c7279;
 }
 
-.social-icon{
+.social-icon {
     margin-top: 30px;
 }
 
-.social-icon ul{
+.social-icon ul {
     list-style: none;
     padding: 0;
 
 }
 
-.social-icon ul li{
+.social-icon ul li {
     display: inline-block;
     /* float: left; */
 }
 
-.social-icon a{
+.social-icon a {
     border: 1px solid #e8ecee;
     border-radius: 2px;
     color: #c6cacc;
@@ -271,11 +271,62 @@ nav ul {
     width: 40px;
 }
 
-.social-icon a:hover{
+.social-icon a:hover {
     background-color: #e84545;
     border-color: #e84545;
     color: #fff;
 }
+
+/*============== Product Section ==============*/
+
+.store-item {
+    z-index: -9;
+}
+
+.card {
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.3);
+    border: none;
+    margin-bottom: 30px;
+}
+
+.card-01 .card-body {
+    position: relative;
+}
+
+.card-01 .height-fix {
+    height: 455px;
+    overflow: hidden;
+}
+
+/* #product .btn{
+    background-color: #fff !important;
+    color: #2d3033;
+  } */
+
+
+.button {
+    color: rgb(156, 156, 156);
+    font-size: 13px;
+    font-weight: 600;
+    border: 0;
+    border-radius: 5px;
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.button:hover,
+.button:focus {
+    background-color: #e52e2e;
+    color: #fff;
+}
+
+.active {
+    background-color: #e52e2e !important;
+    color: #fff;
+}
+
 
 /*============== Media Query ==============*/
 
@@ -443,6 +494,10 @@ nav ul {
         font-size: 42px;
     }
 
+    #team {
+        padding: 100px 0 50px 0;
+    }
+
     .team-member img {
         height: 265px;
         width: 265px;
@@ -451,15 +506,15 @@ nav ul {
         display: flex;
     }
 
-    .team-member-description{
+    .team-member-description {
         text-align: center;
     }
 
-    .team-member-description p{
+    .team-member-description p {
         padding: 0 10px;
     }
 
-    .social-icon{
+    .social-icon {
         margin: 30px 0;
         text-align: center;
     }
@@ -475,7 +530,19 @@ nav ul {
         font-size: 32px;
     }
 
-    .team-member-description p{
+    .team-member-description p {
         padding: 0 10px;
+    }
+
+    .button {
+        color: rgb(156, 156, 156);
+        font-size: 12px;
+        font-weight: 600;
+        border: 0;
+        border-radius: 5px;
+        display: inline-block;
+        text-transform: uppercase;
+        padding:6px;
+        text-decoration: none;
     }
 }
