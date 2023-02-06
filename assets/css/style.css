@@ -50,6 +50,7 @@ body {
 #header {
     width: 100%;
     position: fixed;
+    z-index: 9999;
 }
 
 #header nav {
@@ -160,8 +161,6 @@ nav ul {
     margin-bottom: 60px;
 }
 
-.features-content img {}
-
 .features-content h5 {
     font-size: 14px;
     color: #2d3033;
@@ -185,8 +184,15 @@ nav ul {
 }
 
 .work-modify {
+    position: relative;
     margin: 0;
     padding: 0 !important;
+}
+
+.work-content{
+    width: 100%;
+    height: 350px;
+    position: relative;
 }
 
 .work-img {
@@ -196,6 +202,41 @@ nav ul {
     border: .5px solid #fff;
     object-fit: none;
     object-position: 70% 100%; 
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    background: #d44140;
+    cursor: pointer;
+}
+
+.overlay-content{
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    text-align: center;
+}
+
+.work-content:hover .overlay{
+    opacity: 0.9;
+}
+
+.overlay .text{
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.overlay p{
+    font-size: 13px;
 }
 
 /*============== Team Section ==============*/
@@ -290,12 +331,6 @@ nav ul {
     height: 455px;
     overflow: hidden;
 }
-
-/* #product .btn{
-    background-color: #fff !important;
-    color: #2d3033;
-  } */
-
 
 .button {
     color: rgb(156, 156, 156);
@@ -445,12 +480,12 @@ nav ul {
     }
 }
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
     .container {
-        /* width: 750px !important; */
+        width: 750px !important;
     }
 
-}
+} */
 
 @media (max-width: 768px) {
 
