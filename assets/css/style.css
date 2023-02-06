@@ -424,8 +424,6 @@ nav ul {
     left: 50%;
 }
 
-
-
 /*============== Download Start ==============*/
 
 #download{
@@ -581,13 +579,6 @@ nav ul {
     }
 }
 
-/* @media (min-width: 768px) {
-    .container {
-        width: 750px !important;
-    }
-
-} */
-
 @media (max-width: 768px) {
 
     .col-12 {
@@ -692,15 +683,6 @@ nav ul {
         text-align: center;
     }
 
-    .footer-content {
-        padding-top: 50px;
-        margin-bottom: 0;
-    }
-
-    .footer-content-pera{
-        margin-bottom: 50px;
-    }
-
     .slider-content {
         padding-bottom: 65px;
     }
@@ -725,12 +707,21 @@ nav ul {
         padding-left: 40px;
     }
 
-    .owl-dots {
-        /* text-align: center; */
+    .client-testimonial-carousel .owl-dots {
+        text-align: center;
         position: absolute;
         right: 0;
         bottom: 30px;
-        left: 50%;
+        left: 0%;
+    }
+
+    .footer-content {
+        padding-top: 50px;
+        margin-bottom: 0;
+    }
+
+    .footer-content-pera{
+        margin-bottom: 50px;
     }
 
 }
