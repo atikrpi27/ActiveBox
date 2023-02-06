@@ -104,7 +104,6 @@ nav ul {
     display: none;
 }
 
-
 /* Banner Content  */
 
 .banner-text {
@@ -150,7 +149,6 @@ nav ul {
     color: #fff;
 }
 
-
 /*============= Feature Start =============*/
 
 #features {
@@ -176,7 +174,6 @@ nav ul {
     padding: 0px 13px;
 }
 
-
 /*============== Work Section ==============*/
 
 #work {
@@ -189,7 +186,7 @@ nav ul {
     padding: 0 !important;
 }
 
-.work-content{
+.work-content {
     width: 100%;
     height: 350px;
     position: relative;
@@ -201,10 +198,10 @@ nav ul {
     overflow-x: hidden;
     /* border: .5px solid #fff; */
     object-fit: none;
-    object-position: 70% 100%; 
+    object-position: 70% 100%;
 }
 
-.overlay{
+.overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -216,26 +213,26 @@ nav ul {
     cursor: pointer;
 }
 
-.overlay-content{
+.overlay-content {
     position: absolute;
     top: 52%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     color: #fff;
     text-align: center;
 }
 
-.work-content:hover .overlay{
+.work-content:hover .overlay {
     opacity: 0.9;
 }
 
-.overlay .text{
+.overlay .text {
     font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
 }
 
-.overlay p{
+.overlay p {
     font-size: 13px;
 }
 
@@ -311,10 +308,6 @@ nav ul {
 
 /*============== Product Section ==============*/
 
-/* .store-item {
-    z-index: -9;
-} */
-
 .card {
     box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.3);
     border: none;
@@ -323,7 +316,7 @@ nav ul {
     cursor: pointer;
 }
 
-.card:hover{
+.card:hover {
     transform: scale(1.01);
     box-shadow: 2px 2px 20px rgb(0 0 0 / 45%);
 }
@@ -337,7 +330,7 @@ nav ul {
     overflow: hidden;
 }
 
-.produce-details{
+.produce-details {
     cursor: pointer !important;
 }
 
@@ -364,19 +357,17 @@ nav ul {
     color: #fff;
 }
 
-
 /*============== Testimonials Start ==============*/
 
-
-#testimonials{
+#testimonials {
     padding-top: 80px;
 }
 
-.slider-content{
+.slider-content {
     background-color: #553549;
 }
 
-.slider-content p{
+.slider-content p {
     padding: 60px 60px 0px 60px;
     margin: 0;
     color: #fff;
@@ -385,7 +376,7 @@ nav ul {
     font-style: italic;
 }
 
-.slider-img{
+.slider-img {
     height: 345px;
 }
 
@@ -402,7 +393,7 @@ nav ul {
 
 .client-testimonial-carousel .owl-dots button {
     height: 10px;
-    background:rgba(255,255,255, 0.2);
+    background: rgba(255, 255, 255, 0.2);
     width: 10px;
     display: inline-block;
     margin: 3px;
@@ -426,11 +417,11 @@ nav ul {
 
 /*============== Download Start ==============*/
 
-#download{
+#download {
     padding: 100px 0;
 }
 
-.download-content h3{
+.download-content h3 {
     font-size: 28px;
     color: #2d3033;
     font-weight: 300;
@@ -438,17 +429,17 @@ nav ul {
 
 /*============== Footer Start ==============*/
 
-#footer{
+#footer {
     background-color: #3a3e64;
     color: #fff;
 }
 
-.footer-content{
+.footer-content {
     padding-top: 70px;
     margin-bottom: 80px;
 }
 
-.footer-content h5{
+.footer-content h5 {
     margin-bottom: 20px;
     font-size: 16px;
     text-transform: uppercase;
@@ -456,29 +447,30 @@ nav ul {
 }
 
 .footer-content p,
-.footer-bottom p{
+.footer-bottom p {
     font-size: 14px;
     line-height: 22.4px;
     color: rgba(255, 255, 255, 0.5);
 }
 
-.footer-bottom{
+.footer-bottom {
     background-color: #2b2e4a;
     padding: 20px 0;
 }
 
-.footer-bottom p{
-    margin: 0;}
+.footer-bottom p {
+    margin: 0;
+}
 
-.footer-bottom i{
+.footer-bottom i {
     color: #e52e2e;
 }
-.footer-bottom b{
+
+.footer-bottom b {
     color: #ffffff;
 }
 
 /*============== Media Query ==============*/
-
 
 @media only screen and (max-width: 1440px) and (min-width: 1025px) {
     .container {
@@ -554,7 +546,6 @@ nav ul {
         font-family: Georgia, "Times New Roman", serif;
         font-size: 26px;
         font-style: italic;
-        /* text-align: justify; */
     }
 
     .slider-content p {
@@ -564,7 +555,6 @@ nav ul {
         font-family: Georgia, "Times New Roman", serif;
         font-size: 26px;
         font-style: italic;
-        /* text-align: justify; */
     }
 
     .testimonial-author {
@@ -720,7 +710,7 @@ nav ul {
         margin-bottom: 0;
     }
 
-    .footer-content-pera{
+    .footer-content-pera {
         margin-bottom: 50px;
     }
 
@@ -747,7 +737,7 @@ nav ul {
         border-radius: 5px;
         display: inline-block;
         text-transform: uppercase;
-        padding:6px;
+        padding: 6px;
         text-decoration: none;
     }
 
