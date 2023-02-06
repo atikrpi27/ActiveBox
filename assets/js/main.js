@@ -1,4 +1,7 @@
-//Product filter
+/*++++++++++++++++++++++++++++++++++++ 
+            Product filter 
+++++++++++++++++++++++++++++++++++++*/
+
 let button = document.querySelectorAll('.button');
 let storeItems = document.querySelectorAll('.store-item');
 
@@ -27,7 +30,10 @@ button.forEach(btn => {
 
 
 $(document).ready(function () {
-    // Header Scroll
+    /*+++++++++++++++++++++++++++++++ 
+            Header Scroll
+    +++++++++++++++++++++++++++++++*/
+
     $(window).on('scroll', function () {
         var scroll = $(window).scrollTop();
 
@@ -38,7 +44,10 @@ $(document).ready(function () {
         }
     });
 
-    //navbar collapse 
+    /*+++++++++++++++++++++++++++++++++ 
+            navbar collapse 
+    +++++++++++++++++++++++++++++++++*/
+
     $('.checkbtn').click(function () {
         if ($('input[type="checkbox"]').prop("checked") == true) {
             $('input[type="checkbox"]').attr('checked', false);
@@ -47,13 +56,24 @@ $(document).ready(function () {
         }
         else if ($('input[type="checkbox"]').prop("checked") == false) {
             $('input[type="checkbox"]').attr('checked', true);
-            console.log("checked all")
+            // console.log("checked all")
             $('#iconBtn').hide();
             $('#cancelBtn').show();
+
         }
+
+        // after click any li then close the nav
+        $('.nav-list li').click(function () {
+            $('input[type="checkbox"]').attr('checked', false);
+            $('#cancelBtn').hide();
+            $('#iconBtn').show();
+        })
     });
 
-    //testimonials slider
+    /*+++++++++++++++++++++++++++++++++++ 
+            testimonials slider 
+    +++++++++++++++++++++++++++++++++++*/
+
     $(".owl-carousel").owlCarousel({
         items: 1,
         autoplay: true,
