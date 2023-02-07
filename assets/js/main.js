@@ -76,9 +76,9 @@ $(document).ready(function () {
 
     $(".owl-carousel").owlCarousel({
         items: 1,
-        autoplay: true,
+        // autoplay: true,
         // autoplayHoverPause: true,
-        autoplayTimeout: 4000,
+        // autoplayTimeout: 4000,
         animateIn: 'fadeIn',
         animateOut: 'fadeOut',
         margin: 30,
