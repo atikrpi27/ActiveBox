@@ -504,11 +504,15 @@ nav ul {
     }
 
     .banner-text {
-        margin-bottom: 70px;
+        margin-bottom: 50px;
     }
 
     .banner-text p {
-        line-height: 1.1;
+        font-size: 20px;
+        font-weight: 300;
+        margin-top: 11px;
+        margin-bottom: 70px;
+        padding: 0px 100px;
         line-height: 1.5;
     }
 
@@ -547,7 +551,7 @@ nav ul {
     }
 
     .banner-text {
-        margin-bottom: 50px;
+        margin-bottom: 35px;
         padding: 0;
     }
 
@@ -558,9 +562,9 @@ nav ul {
     .banner-text p {
         font-size: 18px;
         font-weight: 300;
-        margin-top: 11px;
-        margin-bottom: 40px;
-        padding: 0px 20px;
+        margin-top: 15px;
+        margin-bottom: 50px;
+        padding: 0px 95px;
         line-height: 1.5;
     }
 
@@ -697,6 +701,17 @@ nav ul {
         /* height: 725px; */
     }
 
+    .carousel-caption {
+        position: absolute;
+        right: 10%;
+        bottom: 1.25rem;
+        left: 10%;
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;
+        color: #fff;
+        text-align: center;
+    }
+
     .banner-text {
         margin-bottom: 50px;
     }
@@ -707,8 +722,8 @@ nav ul {
 
     .banner-text p {
         font-size: 18px;
-        padding: 0;
-        margin-top: 9px;
+        padding: 0 50px;
+        margin-top: 10px;
     }
 
     .d-none {
@@ -813,6 +828,10 @@ nav ul {
         padding-bottom: 1.25rem;
         color: #fff;
         text-align: center;
+    }
+
+    .btn-large {
+        padding: 14.5px 20px;
     }
 
     .team-member-description p {
