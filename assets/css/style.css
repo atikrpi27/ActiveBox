@@ -222,6 +222,8 @@ nav ul {
     width: 100%;
     height: 350px;
     position: relative;
+    overflow: hidden;
+
 }
 
 .work-img {
@@ -231,6 +233,11 @@ nav ul {
     /* border: .5px solid #fff; */
     object-fit: none;
     object-position: 70% 100%;
+    transition: all .5s ease-in-out;
+}
+
+.work-content:hover .work-img {
+    transform: scale(1.1);
 }
 
 .overlay {
@@ -245,6 +252,10 @@ nav ul {
     cursor: pointer;
 }
 
+.work-content:hover .overlay {
+    opacity: 0.9;
+}
+
 .overlay-content {
     position: absolute;
     top: 52%;
@@ -252,10 +263,6 @@ nav ul {
     transform: translate(-50%, -50%);
     color: #fff;
     text-align: center;
-}
-
-.work-content:hover .overlay {
-    opacity: 0.9;
 }
 
 .overlay .text {
@@ -267,6 +274,7 @@ nav ul {
 .overlay p {
     font-size: 13px;
 }
+
 
 /*+++++++++++++++++++++++++++++++++++ 
             Team Section 
