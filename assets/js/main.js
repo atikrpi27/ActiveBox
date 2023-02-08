@@ -71,6 +71,15 @@ $(document).ready(function () {
     });
 
     /*+++++++++++++++++++++++++++++++++++ 
+            Product Filter 
+    +++++++++++++++++++++++++++++++++++*/
+
+    $('.product a').click(function () {
+        $('.product a.active').removeClass("active");
+        $(this).addClass("active");
+    });
+
+    /*+++++++++++++++++++++++++++++++++++ 
             testimonials slider 
     +++++++++++++++++++++++++++++++++++*/
 
