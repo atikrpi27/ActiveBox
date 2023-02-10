@@ -340,6 +340,8 @@ nav ul {
     margin-right: 5px;
     text-align: center;
     width: 40px;
+    transition: all .4s ease-in-out;
+
 }
 
 .social-icon a:hover {
@@ -409,6 +411,11 @@ nav ul {
     padding-top: 70px;
 }
 
+.slider-details {
+    width: 100%;
+    height: 100%;
+}
+
 .slider-content {
     background-color: #553549;
 }
@@ -421,10 +428,6 @@ nav ul {
     font-size: 20px;
     font-style: italic;
     line-height: 1.3;
-}
-
-.slider-img {
-    height: 345px;
 }
 
 .testimonial-author {
@@ -554,6 +557,56 @@ nav ul {
             Media Query
 ++++++++++++++++++++++++++++++++++++++*/
 
+@media only screen and (max-width: 3840px) and (min-width: 2441px) {
+    .slider-content p {
+        font-size: 24px;
+        padding: 10% 10% 2% 10%;
+    }
+
+    .testimonial-author {
+        font-size: 12px;
+        padding: 0 10%;
+    }
+
+    .client-testimonial-carousel .owl-dots button {
+        height: 20px;
+        background: rgba(255, 255, 255, 0.2);
+        width: 20px;
+        display: inline-block;
+        margin: 5px;
+        transition: .2s;
+        border-radius: 50%;
+    }
+
+    .client-testimonial-carousel button.owl-dot.active {
+        background: #fff !important;
+        width: 20px;
+        height: 20px;
+    }
+
+    .client-testimonial-carousel .owl-dots {
+        text-align: center;
+        position: absolute;
+        right: 0;
+        bottom: 50px;
+        left: 50%;
+    }
+}
+
+@media only screen and (max-width: 2440px) and (min-width: 1441px) {
+
+    .slider-content p {
+        font-size: 22px;
+        padding: 10% 10% 2% 10%;
+    }
+
+    .testimonial-author {
+        font-size: 12px;
+        padding: 0 10%;
+    }
+
+}
+
 @media only screen and (max-width: 1440px) and (min-width: 1025px) {
     .container {
         width: 1170px !important;
@@ -578,6 +631,16 @@ nav ul {
 
     #team {
         padding: 100px 0 65px 0;
+    }
+
+    .slider-content p {
+        font-size: 22px;
+        padding: 10% 10% 2% 10%;
+    }
+
+    .testimonial-author {
+        font-size: 12px;
+        padding: 0 10%;
     }
 
 }
@@ -652,16 +715,7 @@ nav ul {
     }
 
     .slider-content p {
-        padding: 60px 45px 0px 20px;
-        margin: 0;
-        color: #fff;
-        font-family: Georgia, "Times New Roman", serif;
-        font-size: 26px;
-        font-style: italic;
-    }
-
-    .slider-content p {
-        padding: 90px 30px 0px 15px;
+        padding: 10% 10% 2% 10%;
         margin: 0;
         color: #fff;
         font-family: Georgia, "Times New Roman", serif;
@@ -675,9 +729,8 @@ nav ul {
         font-size: 11px;
         font-style: normal;
         font-weight: 600;
-        margin-top: 15px;
         text-transform: uppercase;
-        padding-left: 15px;
+        padding: 0 10%;
     }
 }
 
