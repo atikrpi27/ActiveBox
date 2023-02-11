@@ -558,6 +558,39 @@ nav ul {
 ++++++++++++++++++++++++++++++++++++++*/
 
 @media only screen and (max-width: 3840px) and (min-width: 2441px) {
+
+    .carousel-item {
+        height: 100vh;
+        /* height: 550px; */
+    }
+
+    .carousel-item img {
+        height: 100%;
+        /* height: 725px; */
+    }
+
+    .banner-text {
+        margin-bottom: 30%;
+    }
+
+    .banner-text h1 {
+        font-family: "Open Sans", sans-serif;
+        font-size: 72px;
+        font-weight: 700;
+        margin-top: 4px;
+        line-height: 1.11;
+        text-transform: uppercase;
+    }
+
+    .banner-text p {
+        font-size: 24px;
+        font-weight: 300;
+        margin-top: 15px;
+        margin-bottom: 50px;
+        padding: 0 70px;
+        line-height: 1.5;
+    }
+
     .slider-content p {
         font-size: 24px;
         padding: 10% 10% 2% 10%;
@@ -595,6 +628,38 @@ nav ul {
 
 @media only screen and (max-width: 2440px) and (min-width: 1441px) {
 
+    .carousel-item {
+        height: 100vh;
+        /* height: 550px; */
+    }
+
+    .carousel-item img {
+        height: 100%;
+        /* height: 725px; */
+    }
+
+    .banner-text {
+        margin-bottom: 7%;
+    }
+
+    .banner-text h1 {
+        font-family: "Open Sans", sans-serif;
+        font-size: 72px;
+        font-weight: 700;
+        margin-top: 4px;
+        line-height: 1.11;
+        text-transform: uppercase;
+    }
+
+    .banner-text p {
+        font-size: 24px;
+        font-weight: 300;
+        margin-top: 15px;
+        margin-bottom: 50px;
+        padding: 0 70px;
+        line-height: 1.5;
+    }
+
     .slider-content p {
         font-size: 22px;
         padding: 10% 10% 2% 10%;
@@ -617,7 +682,7 @@ nav ul {
     }
 
     .banner-text {
-        margin-bottom: 50px;
+        margin-bottom: 13%;
     }
 
     .banner-text p {
@@ -627,6 +692,16 @@ nav ul {
         margin-bottom: 70px;
         padding: 0px 100px;
         line-height: 1.5;
+    }
+
+    .carousel-item {
+        height: 100vh;
+        /* height: 550px; */
+    }
+
+    .carousel-item img {
+        height: 100%;
+        /* height: 725px; */
     }
 
     #team {
@@ -674,7 +749,7 @@ nav ul {
     }
 
     .banner-text {
-        margin-bottom: 35px;
+        margin-bottom: 0%;
         padding: 0;
     }
 
@@ -692,8 +767,8 @@ nav ul {
     }
 
     .carousel-item {
-        /* height: 100vh; */
-        height: 550px;
+        height: 100vh;
+        /* height: 550px; */
     }
 
     .carousel-item img {
@@ -805,8 +880,8 @@ nav ul {
     }
 
     .carousel-item {
-        /* height: 100vh; */
-        height: 550px;
+        height: 100vh;
+        /* height: 550px; */
     }
 
     .carousel-item img {
@@ -826,7 +901,7 @@ nav ul {
     }
 
     .banner-text {
-        margin-bottom: 50px;
+        margin-bottom: 6%;
     }
 
     .banner-text h1 {
@@ -837,6 +912,7 @@ nav ul {
         font-size: 18px;
         padding: 0 50px;
         margin-top: 10px;
+        margin-bottom: 40px;
     }
 
     .d-none {
@@ -917,21 +993,17 @@ nav ul {
 
     .carousel-indicators {
         left: 0px !important;
-        margin-bottom: 2rem !important;
+        margin-bottom: 1rem !important;
     }
 
-    .banner-text {
-        margin-bottom: 50px;
+    .carousel-item {
+        height: 100vh;
+        /* height: 550px; */
     }
 
-    .banner-text h1 {
-        font-size: 30px;
-    }
-
-    .banner-text p {
-        font-size: 14px;
-        padding: 0 20px;
-        margin-top: 15px;
+    .carousel-item img {
+        height: 100%;
+        /* height: 725px; */
     }
 
     .carousel-caption {
@@ -943,6 +1015,21 @@ nav ul {
         padding-bottom: 1.25rem;
         color: #fff;
         text-align: center;
+    }
+
+    .banner-text {
+        margin-bottom: 10%;
+    }
+
+    .banner-text h1 {
+        font-size: 30px;
+    }
+
+    .banner-text p {
+        font-size: 14px;
+        padding: 0 20px;
+        margin-top: 15px;
+        margin-bottom: 35px;
     }
 
     .btn-large {
