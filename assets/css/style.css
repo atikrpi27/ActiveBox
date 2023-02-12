@@ -340,14 +340,13 @@ nav ul {
     margin-right: 5px;
     text-align: center;
     width: 40px;
-    transition: all .4s ease-in-out;
-
 }
 
 .social-icon a:hover {
     background-color: #e84545;
     border-color: #e84545;
     color: #fff;
+    transition: all .5s;
 }
 
 /*++++++++++++++++++++++++++++++++++++++++ 
