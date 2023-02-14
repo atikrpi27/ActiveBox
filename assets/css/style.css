@@ -552,6 +552,11 @@ nav ul {
     transition: all 0.3s;
 }
 
+.footer-bottom a {
+    text-decoration: none;
+    color: #fff;
+}
+
 /*++++++++++++++++++++++++++++++++++++++ 
             Media Query
 ++++++++++++++++++++++++++++++++++++++*/
